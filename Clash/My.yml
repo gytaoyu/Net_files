@@ -128,36 +128,30 @@ cfw-bypass:
   - 192.168.*
   - <local>
 cfw-latency-timeout: 5000
-  Proxy: 
-    - 
-      name: "ss1"
-      type: "ss"
-      server: "server"
-      port: 443
-      cipher: "AEAD_CHACHA20_POLY1305"
-      password: "password"
-    - 
-      name: "ORACLE_JP"
-      type: "vmess"
-      server: "oraclejp.yorkpeach.pp.ua"
-      port: 443
-      uuid: "25e032a2-d88f-49ec-beee-a5c02c043ae5"
-      alterId: 12
-      cipher: "auto"
-      network: "ws"
-      tls: true
-      ws-path: "/dcde16f6/"
-    - 
-      name: "GCP_HK"
-      type: "vmess"
-      server: "gcphk.yorkpeach.pp.ua"
-      port: 443
-      uuid: "54eca7a9-8295-4689-afb4-03575c8c8007"
-      alterId: 12
-      cipher: "auto"
-      network: "ws"
-      tls: true
-      ws-path: "/622a380b/"
+# 代理节点
+Proxy:
+  # MY v2ray
+  - name: "🇯🇵 ORACLE_JP"
+    type: "vmess"
+    server: "oraclejp.yorkpeach.pp.ua"
+    port: 443
+    uuid: "25e032a2-d88f-49ec-beee-a5c02c043ae5"
+    alterId: 12
+    cipher: "auto"
+    network: "ws"
+    tls: true
+    ws-path: "/dcde16f6/"
+  - 
+    name: "🇭🇰 GCP_HK"
+    type: "vmess"
+    server: "gcphk.yorkpeach.pp.ua"
+    port: 443
+    uuid: "54eca7a9-8295-4689-afb4-03575c8c8007"
+    alterId: 12
+    cipher: "auto"
+    network: "ws"
+    tls: true
+    ws-path: "/622a380b/"
   Proxy Group: 
     - 
       name: "auto"
