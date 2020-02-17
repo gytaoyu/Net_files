@@ -1320,7 +1320,7 @@ Rule:
 - DOMAIN-SUFFIX,apartmentratings.com,Proxy
 - DOMAIN-SUFFIX,apartments.com,Proxy
 - DOMAIN-SUFFIX,bankmobilevibe.com,Proxy
-- DOMAIN-SUFFIX,bing.com,Proxy
+- DOMAIN-SUFFIX,bing.com,DIRECT
 - DOMAIN-SUFFIX,booktopia.com.au,Proxy
 - DOMAIN-SUFFIX,cccat.io,Proxy
 - DOMAIN-SUFFIX,centauro.com.br,Proxy
