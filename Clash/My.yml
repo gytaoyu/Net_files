@@ -901,6 +901,18 @@ Rule:
 - IP-CIDR,54.69.20.121/32,NETFLIX,no-resolve
 - IP-CIDR,52.89.124.203/32,NETFLIX,no-resolve
 - IP-CIDR,52.26.12.98/32,NETFLIX,no-resolve
+- IP-CIDR,52.0.0.0/10,NETFLIX,no-resolve
+- IP-CIDR,35.160.0.0/14,NETFLIX,no-resolve
+- IP-CIDR,54.71.111.34/32,NETFLIX,no-resolve
+- IP-CIDR,54.200.72.161/32,NETFLIX,no-resolve
+- IP-CIDR,54.187.51.79/32,NETFLIX,no-resolve
+- IP-CIDR,23.209.176.72/32,NETFLIX,no-resolve
+- IP-CIDR,184.27.38.19/32,NETFLIX,no-resolve
+- IP-CIDR,157.240.208.35/32,NETFLIX,no-resolve
+- IP-CIDR,34.210.217.170/32,NETFLIX,no-resolve
+- IP-CIDR,23.1.246.13/32,NETFLIX,no-resolve
+- IP-CIDR,54.68.2.232/32,NETFLIX,no-resolve
+
 
 # > niconico
 # USER-AGENT,Niconico*,Proxy
