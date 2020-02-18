@@ -889,6 +889,9 @@ Rule:
 - IP-CIDR,192.173.64.0/18,NETFLIX,no-resolve
 - IP-CIDR,198.38.96.0/19,NETFLIX,no-resolve
 - IP-CIDR,198.45.48.0/20,NETFLIX,no-resolve
+- IP-CIDR,34.210.42.111/32,NETFLIX,no-resolve
+- IP-CIDR,172.217.24.0/24,NETFLIX,no-resolve
+
 # > niconico
 # USER-AGENT,Niconico*,Proxy
 - DOMAIN-SUFFIX,dmc.nico,Proxy
