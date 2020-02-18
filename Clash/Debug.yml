@@ -932,7 +932,7 @@ Rule:
 - IP-CIDR,74.125.0.0/16,Proxy,no-resolve
 - IP-CIDR,172.31.255.0/24,Proxy,no-resolve
 - IP-CIDR,172.217.0.0/16,Proxy,no-resolve
-- IP-CIDR,173.194.22.0/24,Proxy,no-resolve
+- IP-CIDR,173.194.0.0/16,Proxy,no-resolve
 - IP-CIDR,64.233.187.0/24,Proxy,no-resolve
 - IP-CIDR,108.177.125.0/24,Proxy,no-resolve
 
