@@ -1886,6 +1886,12 @@ Rule:
 - DOMAIN,lookup-api.apple.com,Apple
 
 
+# ####   ADD by TAO YU while using   #############
+# 忍者云
+- DOMAIN-SUFFIX,renzhe.cloud,Proxy
+
+# ################################################
+
 # Local Area Network
 - IP-CIDR,192.168.0.0/16,DIRECT
 - IP-CIDR,10.0.0.0/8,DIRECT
