@@ -929,6 +929,11 @@ Rule:
 - DOMAIN-SUFFIX,googlevideo.com,Proxy
 - DOMAIN-SUFFIX,youtube.com,Proxy
 - DOMAIN,youtubei.googleapis.com,Proxy
+- IP-CIDR,216.58.192.0/18,Proxy,no-resolve
+- IP-CIDR,35.186.224.53/32,Proxy,no-resolve
+- IP-CIDR,65.206.58.17/32,Proxy,no-resolve
+- IP-CIDR,172.31.255.253/32,Proxy,no-resolve
+- IP-CIDR,172.217.0.0/16,Proxy,no-resolve
 
 # (HKMTMedia)
 # > 愛奇藝台灣站
