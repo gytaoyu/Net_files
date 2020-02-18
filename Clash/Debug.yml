@@ -932,6 +932,9 @@ Rule:
 - IP-CIDR,74.125.203.139/32,Proxy,no-resolve
 - IP-CIDR,172.31.255.253/32,Proxy,no-resolve
 - IP-CIDR,172.217.0.0/16,Proxy,no-resolve
+- IP-CIDR,173.194.22.236/32,Proxy,no-resolve
+- IP-CIDR,64.233.187.101/32,Proxy,no-resolve
+- IP-CIDR,108.177.125.0/24,Proxy,no-resolve
 
 # (HKMTMedia)
 # > 愛奇藝台灣站
