@@ -921,8 +921,8 @@ Rule:
 - DOMAIN,d2anahhhmp1ffz.cloudfront.net,Proxy
 - DOMAIN,dfp6rglgjqszk.cloudfront.net,Proxy
 # > YouTube
- USER-AGENT,com.google.ios.youtube*,Proxy
- USER-AGENT,YouTube*,Proxy
+- USER-AGENT,com.google.ios.youtube*,Proxy
+- USER-AGENT,YouTube*,Proxy
 - DOMAIN-SUFFIX,googlevideo.com,Proxy
 - DOMAIN-SUFFIX,youtube.com,Proxy
 - DOMAIN,youtubei.googleapis.com,Proxy
