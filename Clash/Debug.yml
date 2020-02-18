@@ -921,16 +921,17 @@ Rule:
 - DOMAIN,d2anahhhmp1ffz.cloudfront.net,Proxy
 - DOMAIN,dfp6rglgjqszk.cloudfront.net,Proxy
 # > YouTube
-# USER-AGENT,com.google.ios.youtube*,Proxy
-# USER-AGENT,YouTube*,Proxy
+ USER-AGENT,com.google.ios.youtube*,Proxy
+ USER-AGENT,YouTube*,Proxy
 - DOMAIN-SUFFIX,googlevideo.com,Proxy
 - DOMAIN-SUFFIX,youtube.com,Proxy
 - DOMAIN,youtubei.googleapis.com,Proxy
-- IP-CIDR,216.58.192.0/18,Proxy,no-resolve
-- IP-CIDR,35.186.224.53/32,Proxy,no-resolve
-- IP-CIDR,65.206.58.17/32,Proxy,no-resolve
-- IP-CIDR,172.31.255.253/32,Proxy,no-resolve
-- IP-CIDR,172.217.0.0/16,Proxy,no-resolve
+#- IP-CIDR,216.58.192.0/18,Proxy,no-resolve
+#- IP-CIDR,35.186.224.53/32,Proxy,no-resolve
+#- IP-CIDR,65.206.58.0/24,Proxy,no-resolve
+#- IP-CIDR,74.125.203.139/32,Proxy,no-resolve
+#- IP-CIDR,172.31.255.253/32,Proxy,no-resolve
+#- IP-CIDR,172.217.0.0/16,Proxy,no-resolve
 
 # (HKMTMedia)
 # > 愛奇藝台灣站
