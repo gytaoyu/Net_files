@@ -26,7 +26,6 @@ mode: Rule
 # 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
 # 5 个级别：silent / info / warning / error / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
 log-level: debug
-
 # clash 的 RESTful API
 external-controller: 127.0.0.1:9090
 
@@ -927,6 +926,11 @@ Rule:
 - DOMAIN-SUFFIX,googlevideo.com,Proxy
 - DOMAIN-SUFFIX,youtube.com,Proxy
 - DOMAIN,youtubei.googleapis.com,Proxy
+- IP-CIDR,216.58.192.0/18,Proxy,no-resolve
+- IP-CIDR,35.186.224.53/32,Proxy,no-resolve
+- IP-CIDR,65.206.58.17/32,Proxy,no-resolve
+- IP-CIDR,172.31.255.253/32,Proxy,no-resolve
+- IP-CIDR,172.217.0.0/16,Proxy,no-resolve
 
 # (HKMTMedia)
 # > 愛奇藝台灣站
