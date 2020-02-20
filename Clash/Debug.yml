@@ -1345,6 +1345,7 @@ Rule:
 - DOMAIN-SUFFIX,zeronet.io,Proxy
 - DOMAIN-SUFFIX,zoom.us,Proxy
 - DOMAIN-KEYWORD,github,Proxy
+- DOMAIN-KEYWORD,githubusercontent,Proxy
 - DOMAIN-KEYWORD,jav,Proxy
 - DOMAIN-KEYWORD,pinterest,Proxy
 - DOMAIN-KEYWORD,porn,Proxy
