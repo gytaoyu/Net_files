@@ -153,8 +153,8 @@ Proxy:
     network: "ws"
     tls: true
     ws-path: "/622a380b/"
-      - 
-    name: "SG"
+    
+  - name: "SG"
     type: "vmess"
     server: "sg.yorkpeach.pp.ua"
     port: 443
