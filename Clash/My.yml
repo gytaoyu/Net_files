@@ -132,7 +132,7 @@ cfw-latency-timeout: 5000
 # 代理节点
 Proxy:
   # MY v2ray
-  - name: "🇯🇵 ORACLE_JP"
+  - name: "ORACLE_JP"
     type: "vmess"
     server: "oraclejp.yorkpeach.pp.ua"
     port: 443
@@ -143,7 +143,7 @@ Proxy:
     tls: true
     ws-path: "/dcde16f6/"
   - 
-    name: "🇭🇰 GCP_HK"
+    name: "GCP_HK"
     type: "vmess"
     server: "gcphk.yorkpeach.pp.ua"
     port: 443
@@ -153,6 +153,17 @@ Proxy:
     network: "ws"
     tls: true
     ws-path: "/622a380b/"
+      - 
+    name: "SG"
+    type: "vmess"
+    server: "sg.yorkpeach.pp.ua"
+    port: 443
+    uuid: "efcb0773-d8b4-4247-9457-faaccf9e6381"
+    alterId: 12
+    cipher: "auto"
+    network: "ws"
+    tls: true
+    ws-path: " /f615fb18/"
 
 Proxy Group:
 
@@ -161,8 +172,9 @@ Proxy Group:
   - name: Proxy
     type: select
     proxies:
-      - 🇯🇵 ORACLE_JP
-      - 🇭🇰 GCP_HK
+      - ORACLE_JP
+      - GCP_HK
+      - SG
       - auto
       - fallback-auto
 #      - load-balance
@@ -178,24 +190,27 @@ Proxy Group:
     type: select
     proxies:
       - Proxy
-      - 🇯🇵 ORACLE_JP
-      - 🇭🇰 GCP_HK
+      - ORACLE_JP
+      - GCP_HK
+      - SG
       - DIRECT
 
   - name: NETFLIX
     type: select
     proxies:
       - Proxy
-      - 🇯🇵 ORACLE_JP
-      - 🇭🇰 GCP_HK
+      - ORACLE_JP
+      - GCP_HK
+      - SG
       - DIRECT
 
   - name: Apple
     type: select
     proxies:
       - Proxy
-      - 🇯🇵 ORACLE_JP
-      - 🇭🇰 GCP_HK
+      - ORACLE_JP
+      - GCP_HK
+      - SG
       - DIRECT
       
   - name: Hijacking
@@ -273,8 +288,9 @@ Proxy Group:
   - name: "auto"
     type: url-test
     proxies:
-      - 🇯🇵 ORACLE_JP
-      - 🇭🇰 GCP_HK
+      - ORACLE_JP
+      - GCP_HK
+      - SG
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -282,8 +298,9 @@ Proxy Group:
   - name: "fallback-auto"
     type: fallback
     proxies:
-      - 🇯🇵 ORACLE_JP
-      - 🇭🇰 GCP_HK
+      - ORACLE_JP
+      - GCP_HK
+      - SG
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
