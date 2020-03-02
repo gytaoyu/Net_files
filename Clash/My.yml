@@ -153,17 +153,7 @@ Proxy:
     network: "ws"
     tls: true
     ws-path: "/622a380b/"
-    
-  - name: "SG"
-    type: "vmess"
-    server: "sg.yorkpeach.pp.ua"
-    port: 443
-    uuid: "efcb0773-d8b4-4247-9457-faaccf9e6381"
-    alterId: 12
-    cipher: "auto"
-    network: "ws"
-    tls: true
-    ws-path: " /f615fb18/"
+
 
 Proxy Group:
 
@@ -174,7 +164,6 @@ Proxy Group:
     proxies:
       - ORACLE_JP
       - GCP_HK
-      - SG
       - auto
       - fallback-auto
 #      - load-balance
@@ -192,7 +181,6 @@ Proxy Group:
       - Proxy
       - ORACLE_JP
       - GCP_HK
-      - SG
       - DIRECT
 
   - name: NETFLIX
@@ -201,7 +189,6 @@ Proxy Group:
       - Proxy
       - ORACLE_JP
       - GCP_HK
-      - SG
       - DIRECT
 
   - name: Apple
@@ -210,7 +197,6 @@ Proxy Group:
       - Proxy
       - ORACLE_JP
       - GCP_HK
-      - SG
       - DIRECT
       
   - name: Hijacking
@@ -290,7 +276,6 @@ Proxy Group:
     proxies:
       - ORACLE_JP
       - GCP_HK
-      - SG
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -300,7 +285,6 @@ Proxy Group:
     proxies:
       - ORACLE_JP
       - GCP_HK
-      - SG
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
